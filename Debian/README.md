@@ -7,4 +7,4 @@ Dieses Skript installiert alle nötigen Grundprogramme und stellt ein grundlegen
 Führe den folgenden Einzeiler aus, um das Skript direkt auszuführen:
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/setup.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/setup.sh)
