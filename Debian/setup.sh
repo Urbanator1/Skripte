@@ -56,7 +56,7 @@ case $yn in
 	[yY] ) echo Updating ...;
 	  timedatectl set-timezone Europe/Vienna
 		apt-get update && apt-get upgrade -y;
-		apt-get install curl wget zip unzip htop nload netstat-nat git sudo -y;
+		apt-get install screen curl wget zip unzip htop nload netstat-nat git sudo -y;
 		locale-gen de_DE.UTF-8;
     export LANG=de_DE.UTF-8;
 
