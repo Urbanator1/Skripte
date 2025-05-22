@@ -6,10 +6,10 @@ echo "Versuche Dateien herunterzuladen ...";
 
 mkdir ./setup;
 
-wget -nv -N -P ./setup https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/bashrc-root;
-wget -nv -N -P ./setup https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/bashrc-default;
-wget -nv -N -P ./setup https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/motd;
-
+wget -nv -N -P ./setup https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/Basic_Install/bashrc-root;
+wget -nv -N -P ./setup https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/Basic_Install/bashrc-default;
+wget -nv -N -P ./setup https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/Basic_Install/motd;
+/Basic_Install
 if [[ -f "./setup/bashrc-root" ]] && [[ -f "./setup/bashrc-default" ]] && [[ -f "./setup/motd" ]]; then
 	echo -e "\n--------------------------------------------------------------------------\n";
 	echo "Dateien erfolgreich heruntergeladen!";
