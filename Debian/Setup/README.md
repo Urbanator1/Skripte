@@ -1,10 +1,10 @@
-# Generelles Debian Setup Script
+# Allgemeines Skript für grundlegende Einstellungen
 
-Dieses Skript installiert alle nötigen Grundprogramme und stellt ein grundlegendes Theme in der Konsole bereit.
+Dieses Skript bietet eine Hilfe zur .
 
 ## Schnellstart
 
 Führe den folgenden Einzeiler aus, um das Skript direkt auszuführen:
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/setup.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/Setup/setup.sh)
