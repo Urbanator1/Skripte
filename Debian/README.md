@@ -1,10 +1,11 @@
-# Generelles Debian Setup Script
+# Debian Skripte
 
-Dieses Skript installiert alle nötigen Grundprogramme und stellt ein grundlegendes Theme in der Konsole bereit.
+Hier findet man einerseits den Ordner **Basic_Install** und den **Setup** Ordner für einfache Installationsvorgänge
 
-## Schnellstart
+### Basic_Install
 
-Führe den folgenden Einzeiler aus, um das Skript direkt auszuführen:
+Installiert *.bashrc* und *motd* und zudem essenzielle Tools wie *curl, wget, zip, unzip, htop, nload, netstat-nat, git* und *sudo* die entweder selber oder von anderen Programmen verwendet werden können.
 
-```bash
-bash <(wget -qO- https://raw.githubusercontent.com/Urbanator1/Skripte/main/Debian/setup.sh)
+### Setup
+
+ISt eher für ein runnigs System gedacht da man mit diesem Script änderungen am Host wie die *IP* oder dem *Hostname* sowie eine Aktualisierung durchführen kann. 
